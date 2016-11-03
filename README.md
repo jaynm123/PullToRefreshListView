@@ -1,21 +1,25 @@
 # PullToRefreshScrollViewDemo
 Android使用PullToRefresh完成ListView下拉刷新和左滑删除
-一、本文主要内容：
+
+## 一、本文主要内容：
 
 使用PullToRefresh完成ListView下拉、上拉刷新；
 扩展PullToRefresh完美的实现ListView左滑删除效果； 注意：本文中的PullToRefresh并非完整的开源库，个人把一些不需要的和平时无相关的类已删除。看起来更加精简，更加容易理解。
 附上PullToRefresh源码库下载地址：http://download.csdn.net/detail/jaynm/9670737
-二、先看效果：
+
+## 二、先看效果：
 
 1.ListView下拉刷新、上拉加载更多：
 
-这里写图片描述
+![](http://img.blog.csdn.net/20161102104101296)
+
 
 2.ListView下拉刷新、上拉加载更多、左滑删除：
 
-这里写图片描述
+![](http://img.blog.csdn.net/20161102104138344)
 
-三、实现代码：
+
+## 三、实现代码：
 
 实现ListView下拉刷新： 
 至于PullToRefreshBase类，自己修改过源码，代码太长这里就不贴出来，自己可以下载Demo自己仔细阅读，主要看如何应用到自己项目中：
@@ -364,7 +368,7 @@ OK，以上便是SwipeMenuListView类中的所有事件处理代码，下面就�
         });
     }
 
-四、常用的一些属性介绍：
+## 四、常用的一些属性介绍：
 
 pull-to-refresh在xml中还能定义一些属性：
 
