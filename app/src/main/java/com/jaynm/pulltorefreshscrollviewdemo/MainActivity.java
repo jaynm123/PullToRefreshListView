@@ -14,6 +14,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
+    /**
+     * 监听事件
+     * @param view
+     */
     public void listviewOnclick(View view) {
         switch (view.getId()) {
             case R.id.listview:
